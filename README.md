@@ -42,7 +42,7 @@ The model outputs 6 parameters that each represent a component in the ladder net
 
 Two channel data of the appropriate size for the program was generated and inputted. The total size of the dataset is 500 samples, with 300 of them being used for training and the rest are used for testing. The data was generated using matlab (Code will be provided soon).
 
-The results are predicted by the model for each of the parameters can be seen in the scatter plots below,
+The results predicted by the model for each of the parameters can be seen in the scatter plots below,
 
 ![AN Results](CNN%20FC%20NN%20Keras/Complex%20Plane/Results/AN%20Results.png)
 
@@ -62,6 +62,8 @@ The model outputs 6 parameters that each represents a component in the ladder ne
 
 Pole locations were generated from different ladder networks using matlab. The total size of the data set is 1000 samples, with 800 of them being used for training and the rest are used for testing.
 
-###### (Images of graph will be included if plotting bug is fixed)
+The results predicted by the model for each of the parameters can be seen in the scatter plots below,
 
-The absolute mean error for each of the parameters in this model ranged between 7% and 8%.
+![FC NN Results](CV%20NN%20Keras/Complex%20Plane/Results/Results%20FC%20NN.png)
+
+The absolute mean error for each of the parameters in this model ranged between 7% and 9%.
